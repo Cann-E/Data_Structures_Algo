@@ -18,7 +18,7 @@ class HashMap:
     
     
     def get(self,key):
-        index = self.hask(key) #turn the key to ascii numbers using our hash function 
+        index = self.hash(key) #turn the key to ascii numbers using our hash function 
         
         while self.map[index] != None:#firsdt check is it not empty or not
             if self.map[index].key == key:#we are checking is the key  what we storing is equla to what we searching for
